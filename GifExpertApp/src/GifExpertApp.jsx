@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { AddCategory, GifGrid } from './components';
 
 export const GifExpertApp = () => {
-  const [categories, setcategories] = useState(['The hobbit']);
+  const [categories, setcategories] = useState(['The Hobbit']);
 
   const onAddCategory = (newCategory) => {
     if (categories.includes(newCategory)) return;

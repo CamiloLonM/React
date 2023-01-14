@@ -1,3 +1,4 @@
+// Custom Hooks-- un hooks es nada mas que una funcion que regresa algo
 import { useEffect, useState } from 'react';
 import { getGifs } from '../helpers/getGifs';
 
